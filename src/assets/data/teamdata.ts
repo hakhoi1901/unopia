@@ -4,7 +4,15 @@ export const CONTACT_DATA = {
     linkedin: '#'
 };
 
-export const MEMBERS = [
+type TeamMember = {
+    id: number;
+    name: string;
+    role: string;
+    avatar: string;
+    github: string;
+};
+
+export const MEMBERS: TeamMember[] = [
     // {
     //     id: 1,
     //     name: 'Hakhoi',
